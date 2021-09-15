@@ -1,0 +1,5 @@
+2021-09-13 12:09:24:095 [Appium] Welcome to Appium v1.21.0
+2021-09-13 12:09:24:098 [Appium] Non-default server args:
+2021-09-13 12:09:24:101 [Appium]   sessionOverride: true
+2021-09-13 12:09:24:102 [Appium]   logFile: E:\Java Software 1.8\java eclipse pgms\appium-21\..\appium-21\Appium_LOGfile\Logs1.txt
+2021-09-13 12:09:24:196 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.

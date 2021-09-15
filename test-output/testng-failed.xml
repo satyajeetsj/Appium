@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.practice.appium.GeneralStoreAddCartValidt">
+        <methods>
+          <include name="addCart"/>
+          <include name="logoutVtiger"/>
+          <include name="logintoVtiger"/>
+          <include name="launchApplication"/>
+          <include name="closebrowser"/>
+          <include name="StartServer"/>
+        </methods>
+      </class> <!-- com.practice.appium.GeneralStoreAddCartValidt -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23872" started-at="2021-09-13T12:09:20Z" finished-at="2021-09-13T12:09:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23872" started-at="2021-09-13T12:09:20Z" finished-at="2021-09-13T12:09:44Z">
+      <class name="com.practice.appium.GeneralStoreAddCartValidt">
+        <test-method status="PASS" signature="StartServer()[pri:0, instance:com.practice.appium.GeneralStoreAddCartValidt@290dbf45]" name="StartServer" is-config="true" duration-ms="2047" started-at="2021-09-13T17:39:18Z" finished-at="2021-09-13T17:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartServer -->
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.practice.appium.GeneralStoreAddCartValidt@290dbf45]" name="launchApplication" is-config="true" duration-ms="20769" started-at="2021-09-13T17:39:21Z" finished-at="2021-09-13T17:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="logintoVtiger()[pri:0, instance:com.practice.appium.GeneralStoreAddCartValidt@290dbf45]" name="logintoVtiger" is-config="true" duration-ms="1" started-at="2021-09-13T17:39:42Z" finished-at="2021-09-13T17:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoVtiger -->
+        <test-method status="FAIL" signature="addCart()[pri:0, instance:com.practice.appium.GeneralStoreAddCartValidt@290dbf45]" name="addCart" duration-ms="19" started-at="2021-09-13T17:39:42Z" finished-at="2021-09-13T17:39:42Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.practice.appium.GeneralStoreAddCartValidt.addCart(GeneralStoreAddCartValidt.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method status="PASS" signature="logoutVtiger()[pri:0, instance:com.practice.appium.GeneralStoreAddCartValidt@290dbf45]" name="logoutVtiger" is-config="true" duration-ms="2011" started-at="2021-09-13T17:39:42Z" finished-at="2021-09-13T17:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutVtiger -->
+        <test-method status="FAIL" signature="closebrowser()[pri:0, instance:com.practice.appium.GeneralStoreAddCartValidt@290dbf45]" name="closebrowser" is-config="true" duration-ms="0" started-at="2021-09-13T17:39:44Z" finished-at="2021-09-13T17:39:44Z">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'HP', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.androidsample.generalstore, statBarHeight=56, noReset=true, viewportRect={top=56, left=0, width=720, height=1351}, deviceName=GAPBB6F68TOR4DIZ, UDID=GAPBB6F68TOR4DIZ, platform=LINUX, deviceUDID=GAPBB6F68TOR4DIZ, desired={appPackage=com.androidsample.generalstore, appActivity=.SplashActivity, noReset=true, platformVersion=9, automationName=Appium, platformName=Android, deviceName=vivo 1902, UDID=GAPBB6F68TOR4DIZ}, platformVersion=9, webStorageEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=vivo, deviceScreenSize=720x1544, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=.SplashActivity, pixelRatio=2, locationContextEnabled=false, deviceScreenDensity=320, deviceModel=vivo 1902}]
+Session ID: 609aa75f-ba2b-4cd7-877c-1b3022ce5e0d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'HP', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.androidsample.generalstore, statBarHeight=56, noReset=true, viewportRect={top=56, left=0, width=720, height=1351}, deviceName=GAPBB6F68TOR4DIZ, UDID=GAPBB6F68TOR4DIZ, platform=LINUX, deviceUDID=GAPBB6F68TOR4DIZ, desired={appPackage=com.androidsample.generalstore, appActivity=.SplashActivity, noReset=true, platformVersion=9, automationName=Appium, platformName=Android, deviceName=vivo 1902, UDID=GAPBB6F68TOR4DIZ}, platformVersion=9, webStorageEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=vivo, deviceScreenSize=720x1544, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=.SplashActivity, pixelRatio=2, locationContextEnabled=false, deviceScreenDensity=320, deviceModel=vivo 1902}]
+Session ID: 609aa75f-ba2b-4cd7-877c-1b3022ce5e0d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at com.generic.Base_Class.closebrowser(Base_Class.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:115)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="SKIP" signature="StopServer()[pri:0, instance:com.practice.appium.GeneralStoreAddCartValidt@290dbf45]" name="StopServer" is-config="true" duration-ms="0" started-at="2021-09-13T17:39:45Z" finished-at="2021-09-13T17:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopServer -->
+      </class> <!-- com.practice.appium.GeneralStoreAddCartValidt -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

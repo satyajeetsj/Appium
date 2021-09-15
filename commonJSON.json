@@ -1,0 +1,12 @@
+{
+"deviceName":"vivo 1902",
+"automationName":"Appium",
+"platformName":"Android",
+"platformVersion":"9",
+"UDID":"GAPBB6F68TOR4DIZ",
+"appPackage":"com.androidsample.generalstore",
+"appActivity":".SplashActivity",
+"noReset":"true"
+
+}
+
